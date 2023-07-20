@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.syllabus {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.sub-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.main-list li:before {
+    content: "\2192"; /* Unicode arrow (→) for main list items */
+    margin-right: 10px;
+}
+
+.sub-list li:before {
+    content: "\21B3"; /* Unicode arrow (↳) for sub list items */
+    margin-right: 10px;
+}
