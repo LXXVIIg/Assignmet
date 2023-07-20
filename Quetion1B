@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World - Internal CSS</title>
+    <style>
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <p>Hello World</p>
+</body>
+</html>
